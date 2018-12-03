@@ -14,7 +14,15 @@ capabilities that are currently available in commercial packages. However,
 lavaan is still under development, and much work still needs to be done.
 
 However, there are some settings in which SEM is still the best alternative. 
-Unless additional restrictions are implemened, factor score regression methods only work when there are at least three items per latent variable. For the moment, the method of Croon also does not work for connected measurement models, such as models with cross-loadings or correlated residual errors. However, we are currently extending the method to be able to handle these kinds of models. We also want to make some extensions to the inference of the model. In future research, we want to use standard errors that are suitable for two-step estimation methods, and we want to develop fit indices, so that the fit of the model can be evaluated, just as in SEM. Finally, we also plan to implement the method in lavaan.
+Unless additional restrictions are implemened, factor score regression methods only work
+when there are at least three items per latent variable.
+For the moment, the method of Croon also does not work for connected measurement models,
+such as models with cross-loadings or correlated residual errors.
+However, we are currently extending the method to be able to handle these kinds of models.
+We also want to make some extensions to the inference of the model.
+In future research, we want to use standard errors that are suitable for two-step estimation methods,
+and we want to develop fit indices, so that the fit of the model can be evaluated,
+just as in SEM. Finally, we also plan to implement the method in lavaan.
 
 To get a first impression of how lavaan works in practice, consider the
 following example of a SEM model (the Political Democracy Example from Bollen's 1989 book):
