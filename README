@@ -1,6 +1,6 @@
 [Factor Score Path Analysis: An Alternative for SEM?](http://www.citeulike.org/user/guhjy/article/14660175)
 
-(FSR)[https://www.rdocumentation.org/packages/lavaan/versions/0.6-1.1161/topics/fsr]
+[FSR](https://www.rdocumentation.org/packages/lavaan/versions/0.6-1.1161/topics/fsr)
 
 lavaan is a free, open source R package for latent variable analysis. You can
 use lavaan to estimate a large variety of multivariate statistical models,
